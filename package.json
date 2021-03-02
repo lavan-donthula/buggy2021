@@ -4,7 +4,7 @@
   "description": "This is test project for Buggy Rating web application",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress --headless=true --browser=chrome"
+    "test": "npx cypress run --headless --browser=chrome"
   },
   "author": "Lavan Donthula",
   "license": "ISC",
