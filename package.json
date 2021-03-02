@@ -1,0 +1,14 @@
+{
+  "name": "buggy-rating",
+  "version": "1.0.0",
+  "description": "This is test project for Buggy Rating web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lavan Donthula",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.6.0"
+  }
+}
