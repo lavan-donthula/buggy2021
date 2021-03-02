@@ -14,7 +14,7 @@ describe('Login tests', () => {
         cy.get('.label-warning').invoke('text').should('eq', 'Invalid username/password'); 
     });
 
-    it.only('Valid login', () => {
+    it('Valid login', () => {
         cy.get('[name=login]').type('ldon.thula');
         cy.get('[name=password]').type('Abc12345!');
 
